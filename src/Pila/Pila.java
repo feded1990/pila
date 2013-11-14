@@ -4,7 +4,7 @@ public class Pila {
     
     private int longitud = 10; 
     private int[] s = new int[10];
-    private int cantidad= -1;
+    private int cantidad= 0;
     
     public boolean isEmpty(){
         if(cantidad==-1){
